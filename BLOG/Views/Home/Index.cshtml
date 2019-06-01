@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h2 class="text-center" style="margin:5% 0">Witam na moim Blogu ! </h2>
+    <br />
+    <p class="text-center" style="margin-bottom:10%">
+        @Html.ActionLink("Zobacz posty ", "../Posts/Index", null, new { @class = "btn btn-primary " })
+    </p>
+</div>
